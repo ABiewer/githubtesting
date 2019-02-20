@@ -1,8 +1,10 @@
 #include <iostream>
 #include <math.h>
 
+using namespace std;
+
 void power(int base, int power){
-	std::cout<<pow(base,power)<<std::endl;
+	cout<<pow((float)base,power)<<endl;
 }
 int main(){
 	power(2,5);
