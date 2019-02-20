@@ -1,10 +1,11 @@
 #include <iostream>
+#include <math.h>
 
-void square(int x){
-	std::cout<<x*x<<std::endl;
+void power(int base, int power){
+	std::cout<<pow(base,power)<<std::endl;
 }
 int main(){
-	
+	power(2,5);
 	return 0;
 }
 
